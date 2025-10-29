@@ -1,5 +1,7 @@
 ### SVG Piano — Neumorphic Clickable Keys, Vanilla JS MP3 Mapping
 
+Live Site URL: https://antonina-kachusova.github.io/SVG-Piano-Neumorphic-Clickable-Keys-Vanilla-JS-MP3-Mapping/
+
 A tiny interactive piano built with pure HTML, SVG, CSS and vanilla JavaScript. Click any key to hear a note; each press briefly “depresses” the key with a neumorphic effect.
 
 ## Technologies Used / how it works
