@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(43, 14, 17); 
+}
+
+.piano svg {
+  width: 100%;
+}
+
+.white-keys,
+.black-keys {
+  cursor: pointer;
+  transition: all 0.1s ease;
+  stroke: #e0e0e0;
+  stroke-width: 1;
+}
+
+.white-keys {
+  fill: #f0f0f0;
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.15))
+    drop-shadow(-3px -3px 5px rgba(255, 255, 255, 0.9));
+}
+
+a:hover .white-keys {
+  fill: #f8f8f8;
+  filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.18))
+    drop-shadow(-5px -5px 8px rgba(255, 255, 255, 1));
+}
+
+a:active .white-keys {
+  fill: #d5d5d5;
+  filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2) inset);
+  transform: translate(1px, 1px);
+}
+
+.black-keys {
+  fill: #333333;
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.4))
+    drop-shadow(-2px -2px 4px rgba(60, 60, 60, 0.5));
+  transform: translateY(-2px);
+}
+
+a:hover .black-keys {
+  fill: #444444;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5))
+    drop-shadow(-3px -3px 6px rgba(70, 70, 70, 0.6));
+}
+
+a:active .black-keys {
+  fill: #1a1a1a;
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.6));
+  transform: translate(0, 0);
+}
